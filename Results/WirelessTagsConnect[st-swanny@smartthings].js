@@ -1,0 +1,24 @@
+
+const { SmartApp } = require('@smartthings/smartapp')
+
+module.exports = new SmartApp()
+    .enableEventLogging(2)
+    .configureI18n()
+    .page('mainPage', (context, page, configData) => {
+
+    })
+
+    .updated(async (context, updateData) => {
+
+        context.api.schedules.schedule('pollHandler', delay);
+
+    })
+
+    .scheduledEventHandler('pollHandler', (context, event) => {
+        
+                log.trace('pollHandler')
+                this.getTagStatusFromServer()
+                this.updateAllDevices()
+            
+
+	})
