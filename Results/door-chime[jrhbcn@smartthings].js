@@ -26,7 +26,7 @@ module.exports = new SmartApp()
         console.log("door chime contactHandler called: $evt")
         
         context.api.devices.sendCommands(context.config.thesiren, 'alarm', DoorChime)
-    
+        console.log("{{interesting}}")
         
 
 	})

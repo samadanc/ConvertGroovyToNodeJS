@@ -38,7 +38,8 @@ module.exports = new SmartApp()
         console.log("${event.name}: ${event.value}")
         
         context.api.devices.sendCommands(context.config.light, 'switch', off)
-    
+
+        console.log("{{interesting}}")
         
 
 	})

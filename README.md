@@ -29,3 +29,8 @@ This is a common practice on Github. Github limits the number of files that can 
 ## Contributing
 
 We welcome submissions of issues and pull requests. we need the help of the community to improve and perfect the tool. 
+
+
+## Types of Markings
+
+interesting: if an app is a possible use case for us to use for mutation
