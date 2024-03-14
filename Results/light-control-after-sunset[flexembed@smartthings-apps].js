@@ -94,3 +94,5 @@ module.exports = new SmartApp()
         
 
 	})
+        console.log("{{interesting}}")
+
